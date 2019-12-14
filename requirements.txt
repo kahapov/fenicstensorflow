@@ -1,0 +1,10 @@
+attrs
+tensorflow-gpu==2.0.0
+jupyterlab
+pandas
+meshio
+scipy
+numpy>=1.16.0
+matplotlib
+imageio
+
