@@ -69,5 +69,6 @@ RUN update-alternatives --install /usr/local/bin/python python /usr/bin/python3 
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install -U -r /tmp/requirements.txt && rm /tmp/* && rm /**/.cache/pip -r
 
+RUN chown -R fenics:fenics /home/fenics
 USER fenics
 ENTRYPOINT jupyter lab --ip=0.0.0.0
