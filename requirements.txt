@@ -1,5 +1,5 @@
 attrs
-tensorflow-gpu==2.0.1
+tensorflow-gpu==2.7.2
 jupyterlab
 pandas
 meshio
